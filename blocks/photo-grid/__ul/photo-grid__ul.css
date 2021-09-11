@@ -1,0 +1,23 @@
+.photo-grid__ul {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(284px, 1fr));
+    gap: 16px;
+    margin-bottom: 92px;
+    padding: 0;
+}
+
+@media screen and (max-width: 1024px) {
+    .photo-grid__ul {
+        padding: 0px 48px 0px;
+    }
+}
+@media screen and (max-width: 768px) {
+    .photo-grid__ul {
+        padding: 0px 24px 0px;
+    }
+}
+@media screen and (max-width: 375px) {
+    .photo-grid__ul {
+        padding: 0px 16px 0px;
+    }
+}

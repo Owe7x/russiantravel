@@ -1,0 +1,8 @@
+.place__block-img {
+    width: 50%;
+}
+@media screen and (max-width: 550px) {
+    .place__block-img {
+        width: 100%;
+    }
+}

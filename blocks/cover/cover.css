@@ -1,0 +1,48 @@
+.cover {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    max-width: 1184px;
+    height: 740px;
+    position: relative;
+}
+.cover:hover .cover__overlay {
+    opacity: 0.5;
+}
+@media screen and (max-width: 1024px) {
+    .cover {
+        height: 640px;
+    }
+}
+@media screen and (max-width: 768px) {
+    .cover {
+        height: 480px;
+    }
+}
+@media screen and (max-width: 676px) {
+    .cover {
+        justify-content: unset;
+        height: 425px;
+    }
+}
+@media screen and (max-width: 550px) {
+    .cover {
+        height: 344px;
+    }
+}
+@media screen and (max-width: 460px) {
+    .cover {
+        height: 287px;
+    }
+}
+@media screen and (max-width: 375px) {
+    .cover {
+        height: 234px;
+    }
+}
+@media screen and (max-width: 320px) {
+    .cover {
+        height: 200px;
+    }
+}
