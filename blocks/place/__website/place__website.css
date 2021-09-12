@@ -1,4 +1,11 @@
 .place__website {
     margin-top: auto;
     width: 50%;
+    box-sizing: border-box;
+}
+@media screen and (max-width: 375px) {
+    .place__website {
+        padding: 0 16px 0;
+        width: 100%;
+    }
 }

@@ -1,0 +1,31 @@
+.cover__item {
+    text-decoration: none;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    max-width: 1184px;
+    min-height: 740px;
+    position: relative;
+    z-index: 1;
+}
+@media screen and (max-width: 1024px) {
+    .cover__item {
+        min-height: 640px;
+    }
+}
+@media screen and (max-width: 768px) {
+    .cover__item {
+        min-height: 480px;
+    }
+}
+@media screen and (max-width: 460px) {
+    .cover__item {
+        min-height: 287px;
+    }
+}
+@media screen and (max-width: 375px) {
+    .cover__item {
+        min-height: 200px;
+    }
+}

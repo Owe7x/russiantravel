@@ -5,6 +5,13 @@
     color: #FFFFFF;
     width: 50%;
     margin: 0;
+    box-sizing: border-box;
+}
+@media screen and (max-width: 1024px) {
+    .place__title {
+        font-size: 52px;
+        line-height: 46px;
+    }
 }
 @media screen and (max-width: 768px) {
     .place__title {
@@ -28,5 +35,6 @@
     .place__title {
         font-size: 32px;
         line-height: 35px;
+        padding: 0 0 0 16px;
     }
 }

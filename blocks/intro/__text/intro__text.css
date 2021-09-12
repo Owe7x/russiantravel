@@ -3,7 +3,7 @@
     line-height: 163%;
     color: #FFFFFF;
     max-width: 690px;
-    margin-bottom: 33px;
+    margin: 0 0 33px;
 }
 @media screen and (max-width: 676px) {
     .intro__text {

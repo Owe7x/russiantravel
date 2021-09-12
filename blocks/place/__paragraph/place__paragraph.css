@@ -12,7 +12,12 @@
         font-size: 16px;
     }
 }@media screen and (max-width: 676px) {
-    .place__title {
+    .place__paragraph {
         font-size: 15px;
+    }
+}
+@media screen and (max-width: 375px) {
+    .place__paragraph {
+        padding: 0 16px 0;
     }
 }

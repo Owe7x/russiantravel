@@ -5,9 +5,13 @@
     list-style: none;
     margin-right: 18px;
     text-decoration: none;
+    transition: opacity 0.3s linear;
 }
 .footer__link:last-child {
     margin-right: 0px;
+}
+.footer__link:hover {
+    opacity: 0.8;
 }
 @media screen and (max-width: 676px) {
     .footer__link {

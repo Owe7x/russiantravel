@@ -2,7 +2,7 @@
     display: grid;
     grid-template-columns: repeat(auto-fit, minmax(284px, 1fr));
     gap: 16px;
-    margin-bottom: 92px;
+    margin: 0 0 92px;
     padding: 0;
 }
 
@@ -19,5 +19,7 @@
 @media screen and (max-width: 375px) {
     .photo-grid__ul {
         padding: 0px 16px 0px;
+        row-gap: 12px;
+        margin: 0 0 64px;
     }
 }

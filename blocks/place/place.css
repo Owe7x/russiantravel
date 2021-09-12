@@ -2,3 +2,11 @@
     max-width: 984px;
     margin: 0 auto 80px;
 }
+@media screen and (max-width: 375px) {
+    .place {
+        margin: 0 auto 50px;
+    }
+    .place:last-child {
+        margin: 0 auto 66px;
+    }
+}
